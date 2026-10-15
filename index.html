@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Contri - The Smartest Way to Split Group Expenses | Download App</title>
+  <meta name="description" content="Contri is the modern expense-splitting app for trips, flatmates, and friends. With smart debt simplification algorithms, settle group balances in 83% fewer transfers. Download on Google Play.">
+  <meta name="theme-color" content="#4f46e5">
+
+  <!-- OpenGraph / Social Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contri - Split Expenses with Friends, Not the Friendship">
+  <meta property="og:description" content="Effortlessly track group balances, multi-payer expenses, and settle up in 1 tap with our smart debt simplification algorithm.">
+  <meta property="og:image" content="assets/logo/logo_with_bg.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation Bar
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand-link" aria-label="Contri Home">
+        <img src="assets/logo/logo.png" alt="Contri Logo" class="brand-logo-img">
+        <span>Contri</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#features">Features</a></li>
+          <li class="nav-item"><a href="#app-tour">App Tour</a></li>
+          <li class="nav-item"><a href="#algorithm">Debt Algorithm</a></li>
+          <li class="nav-item"><a href="#screenshots">Screenshots</a></li>
+          <li class="nav-item"><a href="#comparison">Why Contri</a></li>
+          <li class="nav-item"><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle (Light / Dark) -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Switch Theme">
+          <span id="themeIcon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#download" class="btn-nav-download" title="Go to Download Section">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.986V2.8c0-.376.223-.742.609-.986zm11.597 11.599L18.42 10.19a2.378 2.378 0 0 0 0-3.379l-3.214-3.223-2.128 2.128 2.128 2.128v5.57zm-1.414 1.414l-7.794 7.794 7.794-7.794zm0-5.654L6 1.379l7.792 7.794z"/>
+          </svg>
+          <span>Get App</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="menuToggle" class="menu-toggle-btn" aria-label="Open mobile navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div id="mobileNav" class="mobile-nav">
+      <a href="#features" class="mobile-nav-link">Features</a>
+      <a href="#app-tour" class="mobile-nav-link">App Tour</a>
+      <a href="#algorithm" class="mobile-nav-link">Smart Debt Engine</a>
+      <a href="#screenshots" class="mobile-nav-link">Screenshots</a>
+      <a href="#comparison" class="mobile-nav-link">Why Contri</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <a href="#download" class="btn-play-store" style="justify-content: center; margin-top: 10px;" title="Go to Download Section">
+        <span class="play-store-text">
+          <span class="play-store-sub">GET IT ON</span>
+          <span class="play-store-main">Google Play</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section with Interactive 3D Phone Mockup
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow-bg"></div>
+    <div class="container hero-grid">
+      
+      <!-- Hero Copy & CTAs -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-pulse-dot"></span>
+          <span>Contri v1.0 is Live on Google Play</span>
+        </div>
+
+        <h1 class="hero-title">
+          Split Group Expenses. <br>
+          <span class="text-gradient">Not The Friendship.</span>
+        </h1>
+
+        <p class="hero-description">
+          The ultimate expense-splitting app for trips, roommates, gym buddies, and dinners. 
+          Contri eliminates circular debts with our proprietary <strong>Debt Simplification Algorithm</strong>, so groups settle in 83% fewer payments.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <!-- Google Play Download CTA (Smooth scrolls to bottom download section) -->
+          <a href="#download" class="btn-play-store" title="Go to Download Section">
+            <svg class="play-store-icon" viewBox="0 0 512 512">
+              <path fill="#4285F4" d="M47.8 17.1L274.6 244 56.4 462.2C50.9 456.7 47.8 449.1 47.8 440.9V71.1c0-8.2 3.1-15.8 8.6-21.3l-8.6-32.7z"/>
+              <path fill="#FBBC04" d="M363.9 154.7L274.6 244l89.3 89.3 84.1-48.5c16.3-9.4 16.3-24.9 0-34.3l-84.1-95.8z"/>
+              <path fill="#EA4335" d="M47.8 17.1l226.8 226.9L363.9 154.7 93.6 4.9C79.8-3.1 63.8.4 56.4 9.8l-8.6 7.3z"/>
+              <path fill="#34A853" d="M47.8 494.9l8.6 7.3c7.4 9.4 23.4 12.9 37.2 4.9l270.3-152.4-89.3-89.3L47.8 494.9z"/>
+            </svg>
+            <div class="play-store-text">
+              <span class="play-store-sub">GET IT ON</span>
+              <span class="play-store-main">Google Play Store</span>
+            </div>
+          </a>
+
+          <!-- App Tour Anchor -->
+          <a href="#app-tour" class="btn-tour-demo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>Watch Live App Tour</span>
+          </a>
+        </div>
+
+        <!-- Authentic Feature Badges (Zero Fake Ratings or Hallucinated Stats) -->
+        <div class="hero-feature-highlights">
+          <div class="feature-highlight-pill">
+            <span class="highlight-icon">✓</span>
+            <span>100% Free & Zero Ads</span>
+          </div>
+          <div class="feature-highlight-pill">
+            <span class="highlight-icon">✓</span>
+            <span>Smart Debt Simplification</span>
+          </div>
+          <div class="feature-highlight-pill">
+            <span class="highlight-icon">✓</span>
+            <span>Instant QR Group Invites</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Phone Showcase (Interactive Animated Smartphone) -->
+      <div class="hero-phone-showcase" id="app-tour">
+
+        <!-- Floating Info Cards -->
+        <div class="floating-badge badge-top-left">
+          <div class="badge-icon-box badge-icon-green">📈</div>
+          <div>
+            <div class="badge-info-label">Net Receivable</div>
+            <div class="badge-info-val">+$1,727.84</div>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-bottom-right">
+          <div class="badge-icon-box badge-icon-indigo">✨</div>
+          <div>
+            <div class="badge-info-label">Debt Simplified</div>
+            <div class="badge-info-val">83% Fewer Transfers</div>
+          </div>
+        </div>
+
+        <!-- Smartphone Chassis -->
+        <div class="smartphone-device">
+          <div class="phone-glare"></div>
+
+          <!-- Dynamic Island / Speaker Notch -->
+          <div class="phone-island">
+            <div class="island-camera"></div>
+          </div>
+
+          <!-- Phone Screen Container -->
+          <div class="phone-screen">
+            
+            <!-- Phone Status Bar -->
+            <div class="phone-status-bar">
+              <span class="status-time">10:15</span>
+              <div class="status-icons">
+                <span>5G</span>
+                <span>📶</span>
+                <span>🔋 98%</span>
+              </div>
+            </div>
+
+            <!-- Screen Slides (Tutorial Engine - Exact Contri App Screens) -->
+            <div class="screen-slides-wrap">
+
+              <!-- SLIDE 0: HOME DASHBOARD (Matching home_page.dart & dashboard.jpg) -->
+              <div class="screen-slide active" id="slide0">
+                <div class="app-screen-body">
+                  <!-- App Bar -->
+                  <div class="mock-app-bar">
+                    <div>
+                      <div class="mock-greeting">👋 Good Evening</div>
+                      <div class="mock-user-name">Rob Johnson</div>
+                    </div>
+                    <div class="mock-user-actions">
+                      <div class="mock-bell-btn" title="Notification Center">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                          <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                        <span class="mock-bell-dot"></span>
+                      </div>
+                      <div class="mock-avatar-user" title="Rob Johnson">RJ</div>
+                    </div>
+                  </div>
+
+                  <!-- Executive Net Balance Card (FlipSummaryCard) -->
+                  <div class="mock-balance-card" id="mockFlipCard">
+                    <div class="mock-balance-header">
+                      <div class="mock-balance-label">
+                        <div class="mock-icon-circle-success">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            <polyline points="17 6 23 6 23 12"></polyline>
+                          </svg>
+                        </div>
+                        <span>NET BALANCE</span>
+                      </div>
+                      <div class="mock-status-pill-row">
+                        <div class="mock-pill-receive">
+                          <span class="mock-pill-dot"></span>
+                          <span>YOU RECEIVE</span>
+                        </div>
+                        <div class="mock-info-btn" title="Summary Info">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mock-balance-amount">
+                      <span id="mockNetBalance">$1,727</span><span class="mock-amount-fraction">.84</span>
+                    </div>
+                    <div class="mock-balance-sub">Net receivable amount across groups</div>
+
+                    <!-- Integrated Cash Flow Bar -->
+                    <div class="mock-inner-split-card">
+                      <div class="mock-split-col">
+                        <div class="mock-split-title">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="17 17 7 17 7 7"></polyline>
+                          </svg>
+                          <span>Payable</span>
+                        </div>
+                        <div class="mock-split-val-payable">$2,611<span class="mock-sub-fraction">.25</span></div>
+                      </div>
+                      <div class="mock-split-divider"></div>
+                      <div class="mock-split-col">
+                        <div class="mock-split-title">
+                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                          </svg>
+                          <span>Receivable</span>
+                        </div>
+                        <div class="mock-split-val-receivable">$4,339<span class="mock-sub-fraction">.09</span></div>
+                      </div>
+                    </div>
+
+                    <div class="mock-card-swipe-hint">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 3 21 8 16 13"></polyline>
+                        <line x1="21" y1="8" x2="9" y2="8"></line>
+                        <polyline points="8 21 3 16 8 11"></polyline>
+                        <line x1="3" y1="16" x2="15" y2="16"></line>
+                      </svg>
+                      <span>Swipe card for insights</span>
+                    </div>
+                  </div>
+
+                  <!-- Tactile Quick Actions Bar (Add Expense & Join Group) -->
+                  <div class="mock-action-row">
+                    <button class="mock-btn-add-primary" id="mockAddExpenseBtn" title="Add New Expense">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                      </svg>
+                      <span>Add Expense</span>
+                    </button>
+                    <button class="mock-btn-join-group" id="mockJoinGroupBtn" title="Scan QR to Join">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                      </svg>
+                      <span>Join Group</span>
+                    </button>
+                  </div>
+
+                  <!-- Your Groups Header -->
+                  <div class="mock-section-title">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <span>Your Groups</span>
+                      <span class="mock-badge-count">8</span>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:8px;">
+                      <div class="mock-add-group-circle" title="Create Group">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <line x1="12" y1="8" x2="12" y2="16"></line>
+                          <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                      </div>
+                      <span class="mock-link-see-all">See all &gt;</span>
+                    </div>
+                  </div>
+
+                  <!-- Group Cards (With Avatar Stacks & Status Pills) -->
+                  <!-- Group 1: Gym -->
+                  <div class="mock-group-item">
+                    <div class="mock-group-left">
+                      <div class="mock-squircle-icon" style="background:#e0f2fe; color:#0284c7;">🏋️</div>
+                      <div>
+                        <div class="mock-group-name">Gym</div>
+                        <div class="mock-group-meta">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                          </svg>
+                          <span>2 members</span>
+                        </div>
+                        <div class="mock-avatar-stack">
+                          <div class="mock-stack-avatar" style="background:#e11d48;">RJ</div>
+                          <div class="mock-stack-avatar" style="background:#7c3aed;">R</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:4px;">
+                      <div class="mock-group-status-pill green">
+                        <span class="mock-status-text">Receivable</span>
+                        <span class="mock-status-amount">+$2,500</span>
+                      </div>
+                      <span class="mock-chevron">›</span>
+                    </div>
+                  </div>
+
+                  <!-- Group 2: Office Mates -->
+                  <div class="mock-group-item">
+                    <div class="mock-group-left">
+                      <div class="mock-squircle-icon" style="background:#fee2e2; color:#ef4444;">🏢</div>
+                      <div>
+                        <div class="mock-group-name">Office Mates</div>
+                        <div class="mock-group-meta">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                          </svg>
+                          <span>4 members</span>
+                        </div>
+                        <div class="mock-avatar-stack">
+                          <div class="mock-stack-avatar" style="background:#e11d48;">RJ</div>
+                          <div class="mock-stack-avatar" style="background:#7c3aed;">R</div>
+                          <div class="mock-stack-avatar" style="background:#2563eb;">M</div>
+                          <div class="mock-stack-avatar" style="background:#0284c7;">M</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:4px;">
+                      <div class="mock-group-status-pill red">
+                        <span class="mock-status-text">Payable</span>
+                        <span class="mock-status-amount">$1,605</span>
+                      </div>
+                      <span class="mock-chevron">›</span>
+                    </div>
+                  </div>
+
+                  <!-- Group 3: Travel -->
+                  <div class="mock-group-item" id="mockTravelGroupItem">
+                    <div class="mock-group-left">
+                      <div class="mock-squircle-icon" style="background:#fef3c7; color:#d97706;">✈️</div>
+                      <div>
+                        <div class="mock-group-name">Travel</div>
+                        <div class="mock-group-meta">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                          </svg>
+                          <span>9 members</span>
+                        </div>
+                        <div class="mock-avatar-stack">
+                          <div class="mock-stack-avatar" style="background:#e11d48;">RJ</div>
+                          <div class="mock-stack-avatar" style="background:#7c3aed;">R</div>
+                          <div class="mock-stack-avatar" style="background:#2563eb;">MN</div>
+                          <div class="mock-stack-avatar" style="background:#d97706;">2S</div>
+                          <div class="mock-stack-avatar" style="background:#059669;">+5</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:4px;">
+                      <div class="mock-group-status-pill green">
+                        <span class="mock-status-text">Receivable</span>
+                        <span class="mock-status-amount">+$399.98</span>
+                      </div>
+                      <span class="mock-chevron">›</span>
+                    </div>
+                  </div>
+
+                  <!-- Recent Activity Teaser -->
+                  <div class="mock-section-title" style="margin-top: 8px;">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <span>Recent Activity</span>
+                      <span class="mock-badge-count cyan">34</span>
+                    </div>
+                    <span class="mock-link-see-all">See all &gt;</span>
+                  </div>
+                </div>
+
+                <!-- Material 3 Bottom Navigation Bar (Faithful to dashboard_bottom_nav.dart) -->
+                <div class="mock-phone-nav">
+                  <div class="mock-nav-item active">
+                    <div class="mock-nav-pill">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                      </svg>
+                    </div>
+                    <span>Home</span>
+                  </div>
+                  <div class="mock-nav-item" id="mockNavGroups">
+                    <div class="mock-nav-pill">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                      </svg>
+                    </div>
+                    <span>Groups</span>
+                  </div>
+                  <div class="mock-nav-fab-btn" id="mockNavCenterFab" title="Add Expense">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="12" y1="5" x2="12" y2="19"></line>
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                  </div>
+                  <div class="mock-nav-item">
+                    <div class="mock-nav-pill">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                        <line x1="8" y1="7" x2="16" y2="7"></line>
+                        <line x1="8" y1="11" x2="16" y2="11"></line>
+                        <line x1="8" y1="15" x2="12" y2="15"></line>
+                      </svg>
+                    </div>
+                    <span>Activity</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 1: GROUP DETAILS — EXPENSES TAB (Matching expenses.jpg & group_details_widget.dart) -->
+              <div class="screen-slide" id="slide1">
+                <div class="app-screen-body">
+                  <!-- Group Header AppBar -->
+                  <div class="mock-group-appbar">
+                    <div class="mock-appbar-left" id="mockBackToHomeBtn" title="Back to Dashboard">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                      </svg>
+                      <span class="mock-appbar-title">Travel</span>
+                    </div>
+                    <div class="mock-appbar-actions">
+                      <span title="Group QR">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="3" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="14" width="7" height="7"></rect>
+                          <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                      </span>
+                      <span title="Settings">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="3"></circle>
+                          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                      </span>
+                      <span title="Audit History">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- TabBar (4 Tabs: Expenses, Payments, Settle, Members) -->
+                  <div class="mock-tabs-bar">
+                    <div class="mock-tab-item active" data-tab="expenses">Expenses</div>
+                    <div class="mock-tab-item" data-tab="payments" id="mockTabPayments1">Payments</div>
+                    <div class="mock-tab-item" data-tab="settle" id="mockTabSettle1">Settle</div>
+                    <div class="mock-tab-item" data-tab="members">Members</div>
+                  </div>
+
+                  <!-- Section Title: EXPENSES -->
+                  <div class="mock-section-teal-title">EXPENSES</div>
+
+                  <!-- Expense Items List -->
+                  <div class="mock-expense-list">
+                    <div class="mock-expense-card">
+                      <div class="mock-expense-avatar-box">🍔</div>
+                      <div class="mock-expense-info">
+                        <div class="mock-expense-name">Fuel</div>
+                        <div class="mock-expense-meta">Expense added · $100 · 23 Sep 2026</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-expense-card">
+                      <div class="mock-expense-avatar-box">🍔</div>
+                      <div class="mock-expense-info">
+                        <div class="mock-expense-name">Dinner</div>
+                        <div class="mock-expense-meta">Expense added · $500 · 23 Sep 2026</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Floating Bottom Action Bar (Scan BETA + Add Expense) -->
+                  <div class="mock-group-floating-bar">
+                    <button class="mock-btn-scan">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 7V4h3"></path>
+                        <path d="M20 7V4h-3"></path>
+                        <path d="M4 17v3h3"></path>
+                        <path d="M20 17v3h-3"></path>
+                        <line x1="9" y1="12" x2="15" y2="12"></line>
+                      </svg>
+                      <span>Scan</span>
+                      <span class="mock-beta-pill">BETA</span>
+                    </button>
+                    <button class="mock-btn-add-expense-lg" id="mockGroupAddExpenseBtn">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                      </svg>
+                      <span>Add Expense</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 2: GROUP DETAILS — PAYMENTS & DEBT SIMPLIFICATION TAB (Matching payments_summary.jpg) -->
+              <div class="screen-slide" id="slide2">
+                <div class="app-screen-body">
+                  <!-- Group Header AppBar -->
+                  <div class="mock-group-appbar">
+                    <div class="mock-appbar-left" id="mockBackToHomeBtn2">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                      </svg>
+                      <span class="mock-appbar-title">Travel</span>
+                    </div>
+                    <div class="mock-appbar-actions">
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="3" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="14" width="7" height="7"></rect>
+                          <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                      </span>
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="3"></circle>
+                          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                      </span>
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- TabBar (Payments Active) -->
+                  <div class="mock-tabs-bar">
+                    <div class="mock-tab-item" data-tab="expenses" id="mockTabExpenses2">Expenses</div>
+                    <div class="mock-tab-item active" data-tab="payments">Payments</div>
+                    <div class="mock-tab-item" data-tab="settle" id="mockTabSettle2">Settle</div>
+                    <div class="mock-tab-item" data-tab="members">Members</div>
+                  </div>
+
+                  <!-- Total Group Spend Card (SettleSummaryCard) -->
+                  <div class="mock-group-spend-card">
+                    <div>
+                      <div class="mock-spend-label">Total Group Spend</div>
+                      <div class="mock-spend-amount">$600</div>
+                    </div>
+                    <div class="mock-spend-right">
+                      <div class="mock-receipt-squircle">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                          <line x1="8" y1="7" x2="16" y2="7"></line>
+                          <line x1="8" y1="11" x2="16" y2="11"></line>
+                        </svg>
+                      </div>
+                      <span class="mock-spend-count">2 expenses</span>
+                    </div>
+                  </div>
+
+                  <!-- Section: MEMBERS TO RECEIVE -->
+                  <div class="mock-section-indigo-title">MEMBERS TO RECEIVE</div>
+
+                  <!-- SettleMemberCard (Lavender Card) -->
+                  <div class="mock-member-receive-card">
+                    <div class="mock-member-top-row">
+                      <div class="mock-avatar-user-sm">RJ</div>
+                      <div>
+                        <div class="mock-member-name">You</div>
+                        <div class="mock-member-sub">
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                          </svg>
+                          <span>2</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mock-member-amount-pill">$399<span class="mock-sub-fraction">.98</span></div>
+                  </div>
+
+                  <!-- Section: PAYMENT SUGGESTIONS -->
+                  <div class="mock-section-indigo-title" style="margin-top: 10px;">PAYMENT SUGGESTIONS</div>
+
+                  <!-- Payment Suggestion 1: Ramesh pays Rob Johnson -->
+                  <div class="mock-suggestion-card" id="mockOpenBreakdownCard1">
+                    <div class="mock-suggestion-top">
+                      <div class="mock-pill-group-settle">
+                        <span>⇄</span> GROUP SETTLEMENT
+                      </div>
+                      <div class="mock-pill-exp-count">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                        </svg>
+                        <span>2 expenses</span>
+                      </div>
+                      <span class="mock-dots-menu">⋮</span>
+                    </div>
+
+                    <div class="mock-suggestion-flow">
+                      <div class="mock-user-flow-node">
+                        <div class="mock-node-avatar" style="background:#7c3aed;">R</div>
+                        <div>
+                          <div class="mock-node-name">Ramesh</div>
+                          <div class="mock-node-role">pays</div>
+                        </div>
+                      </div>
+                      <div class="mock-flow-arrow">→</div>
+                      <div class="mock-user-flow-node">
+                        <div class="mock-node-avatar" style="background:#e11d48;">RJ</div>
+                        <div>
+                          <div class="mock-node-name">Rob Johnson</div>
+                          <div class="mock-node-role">receives</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mock-suggestion-bottom">
+                      <div>
+                        <span class="mock-suggestion-val">$66.67</span>
+                        <div class="mock-magic-tag">✨ Simplified settlement</div>
+                      </div>
+                      <span class="mock-link-details">Details &gt;</span>
+                    </div>
+                  </div>
+
+                  <!-- Payment Suggestion 2: Mahesh pays Rob Johnson -->
+                  <div class="mock-suggestion-card" id="mockOpenBreakdownCard2">
+                    <div class="mock-suggestion-top">
+                      <div class="mock-pill-group-settle">
+                        <span>⇄</span> GROUP SETTLEMENT
+                      </div>
+                      <div class="mock-pill-exp-count">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                        </svg>
+                        <span>2 expenses</span>
+                      </div>
+                      <span class="mock-dots-menu">⋮</span>
+                    </div>
+
+                    <div class="mock-suggestion-flow">
+                      <div class="mock-user-flow-node">
+                        <div class="mock-node-avatar" style="background:#2563eb;">MN</div>
+                        <div>
+                          <div class="mock-node-name">Mahesh Da Local...</div>
+                          <div class="mock-node-role">pays</div>
+                        </div>
+                      </div>
+                      <div class="mock-flow-arrow">→</div>
+                      <div class="mock-user-flow-node">
+                        <div class="mock-node-avatar" style="background:#e11d48;">RJ</div>
+                        <div>
+                          <div class="mock-node-name">Rob Johnson</div>
+                          <div class="mock-node-role">receives</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mock-suggestion-bottom">
+                      <div>
+                        <span class="mock-suggestion-val">$66.67</span>
+                        <div class="mock-magic-tag">✨ Simplified settlement</div>
+                      </div>
+                      <span class="mock-link-details">Details &gt;</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 3: SINGLE-TRANSFER CALCULATION SHEET MODAL (Matching settlement_modal.jpg) -->
+              <div class="screen-slide" id="slide3">
+                <div class="app-screen-body" style="padding-top: 6px;">
+                  <!-- Modal Drag Handle -->
+                  <div class="mock-sheet-drag-handle"></div>
+
+                  <!-- Modal Header -->
+                  <div class="mock-sheet-header">
+                    <span class="mock-sheet-down-chevron" id="mockCloseSheetBtn">˅</span>
+                    <div>
+                      <div class="mock-sheet-title">Arnold Lobo Premier pays Rob Johnson</div>
+                      <div class="mock-sheet-subtitle">Payment Breakdown & Calculation</div>
+                    </div>
+                  </div>
+
+                  <div class="mock-sheet-divider"></div>
+
+                  <!-- HOW THIS PAYMENT IS CALCULATED Card -->
+                  <div class="mock-calc-card">
+                    <div class="mock-calc-label">HOW THIS PAYMENT IS CALCULATED</div>
+                    <div class="mock-calc-row">
+                      <span class="mock-calc-net-title">Final Net Amount to Pay</span>
+                      <span class="mock-calc-net-amount">$66.66</span>
+                    </div>
+                    <div class="mock-wand-callout">
+                      <span>🪄</span>
+                      <span>Contri combined group balances into a single direct transfer to save extra transactions.</span>
+                    </div>
+                  </div>
+
+                  <!-- RELATED EXPENSES -->
+                  <div class="mock-section-label-sm">RELATED EXPENSES</div>
+                  <div class="mock-related-sub">
+                    <strong>Total: $66.66</strong> · These expenses total $66.66. Your payment to Rob Johnson is $66.66.
+                  </div>
+
+                  <!-- Expense Breakdown 1: Dinner -->
+                  <div class="mock-breakdown-item">
+                    <div class="mock-item-left">
+                      <div class="mock-pink-squircle">🍴</div>
+                      <div>
+                        <div class="mock-breakdown-title">Dinner</div>
+                        <div class="mock-breakdown-meta">23 Sep 2026 · 9 members</div>
+                      </div>
+                    </div>
+                    <div class="mock-item-right">
+                      <span class="mock-share-label">YOUR SHARE</span>
+                      <div class="mock-share-val-row">
+                        <span class="mock-share-val">$55.55</span>
+                        <span class="mock-share-chevron">˅</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Expense Breakdown 2: Fuel -->
+                  <div class="mock-breakdown-item">
+                    <div class="mock-item-left">
+                      <div class="mock-pink-squircle">🍴</div>
+                      <div>
+                        <div class="mock-breakdown-title">Fuel</div>
+                        <div class="mock-breakdown-meta">23 Sep 2026 · 9 members</div>
+                      </div>
+                    </div>
+                    <div class="mock-item-right">
+                      <span class="mock-share-label">YOUR SHARE</span>
+                      <div class="mock-share-val-row">
+                        <span class="mock-share-val">$11.11</span>
+                        <span class="mock-share-chevron">˅</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Payments Simplified Info Callout -->
+                  <div class="mock-simplified-callout">
+                    <div class="mock-callout-header">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                      </svg>
+                      <span>Payments Simplified</span>
+                    </div>
+                    <p class="mock-callout-p">Contri combines everyone's balances to reduce the number of payments. That's why members may pay someone different from the original expense payer.</p>
+                  </div>
+
+                  <!-- Record Payment CTA Button -->
+                  <button class="mock-btn-record-payment" id="mockRecordPaymentBtn">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>Record Payment of $66.66</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- SLIDE 4: SETTLEMENT AUDIT HISTORY (Matching settle_history.jpg) -->
+              <div class="screen-slide" id="slide4">
+                <div class="app-screen-body">
+                  <!-- Group Header AppBar -->
+                  <div class="mock-group-appbar">
+                    <div class="mock-appbar-left" id="mockBackToHomeBtn4">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                      </svg>
+                      <span class="mock-appbar-title">Travel</span>
+                    </div>
+                    <div class="mock-appbar-actions">
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="3" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="3" width="7" height="7"></rect>
+                          <rect x="14" y="14" width="7" height="7"></rect>
+                          <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                      </span>
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="3"></circle>
+                          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                      </span>
+                      <span>
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- TabBar (Settle Active) -->
+                  <div class="mock-tabs-bar">
+                    <div class="mock-tab-item" data-tab="expenses" id="mockTabExpenses4">Expenses</div>
+                    <div class="mock-tab-item" data-tab="payments" id="mockTabPayments4">Payments</div>
+                    <div class="mock-tab-item active" data-tab="settle">Settle</div>
+                    <div class="mock-tab-item" data-tab="members">Members</div>
+                  </div>
+
+                  <!-- Section Title: SETTLEMENT HISTORY -->
+                  <div class="mock-section-teal-title">SETTLEMENT HISTORY</div>
+
+                  <!-- Settlement History Items -->
+                  <div class="mock-settle-history-list">
+                    <!-- History Item 1 -->
+                    <div class="mock-history-card">
+                      <div class="mock-history-avatar-box">💵</div>
+                      <div class="mock-history-info">
+                        <div class="mock-history-title">RahulS paid Rob Johnson</div>
+                        <div class="mock-history-meta-row">
+                          <span class="mock-history-date">24 Sep 2026, 09:16 PM</span>
+                          <span class="mock-approved-badge">APPROVED</span>
+                        </div>
+                      </div>
+                      <div class="mock-history-val">$66<span class="mock-sub-fraction">.67</span></div>
+                    </div>
+
+                    <!-- History Item 2 -->
+                    <div class="mock-history-card">
+                      <div class="mock-history-avatar-box">💵</div>
+                      <div class="mock-history-info">
+                        <div class="mock-history-title">2nd Sir paid Rob Johnson</div>
+                        <div class="mock-history-meta-row">
+                          <span class="mock-history-date">23 Sep 2026, 11:07 PM</span>
+                          <span class="mock-approved-badge">APPROVED</span>
+                        </div>
+                      </div>
+                      <div class="mock-history-val">$66<span class="mock-sub-fraction">.67</span></div>
+                    </div>
+                  </div>
+
+                  <!-- Settled Group Celebration Banner -->
+                  <div class="mock-settled-celebration-card">
+                    <div class="mock-celebration-title">🎉 Group is Settled!</div>
+                    <div class="mock-celebration-sub">Zero pending dues remaining. All balances squared up!</div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- /screen-slides-wrap -->
+          </div> <!-- /phone-screen -->
+        </div> <!-- /smartphone-device -->
+
+        <!-- Tutorial Player Controls -->
+        <div class="phone-tutorial-controls">
+          <button id="tourPlayBtn" class="tour-play-btn" title="Pause Tutorial">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </button>
+
+          <div class="tour-step-indicators">
+            <button class="tour-step-btn active" data-step="0">1. Home</button>
+            <button class="tour-step-btn" data-step="1">2. Expenses</button>
+            <button class="tour-step-btn" data-step="2">3. Simplify</button>
+            <button class="tour-step-btn" data-step="3">4. Breakdown</button>
+            <button class="tour-step-btn" data-step="4">5. Settle</button>
+          </div>
+        </div>
+
+        <div id="tourCaption" class="tour-step-caption">
+          <strong>1. Executive Net Balance:</strong> Track real-time group balances ($1,727.84 receivable) and integrated cash flows at a single glance without spreadsheets.
+        </div>
+
+      </div> <!-- /hero-phone-showcase -->
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Stats Ticker Banner
+       ========================================================================== -->
+  <section class="stats-banner">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">100% Free</span>
+        <span class="stat-label">Zero hidden fees or forced subscriptions</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">83% Fewer</span>
+        <span class="stat-label">Transfers via Debt Simplification Engine</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">1-Tap Settle</span>
+        <span class="stat-label">Record settlements & clear group balances</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">Real-Time</span>
+        <span class="stat-label">Instant balance sync across all group members</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Feature Deep-Dive: Debt Simplification Engine
+       ========================================================================== -->
+  <section class="feature-highlight-section" id="algorithm">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Mathematical Wizardry</span>
+        <h2 class="section-title">Why Settle 10 Times When You Can Settle Once?</h2>
+        <p class="section-sub">
+          When friends travel or live together, debts become a web of confusion: A owes B, B owes C, and C owes A. 
+          Contri uses graph simplification algorithms to resolve circular debts into the minimum possible direct payments.
+        </p>
+      </div>
+
+      <div class="simplification-card">
+        <div class="algo-explanation">
+          <h3>The Contri Advantage</h3>
+          <div class="algo-bullet">
+            <div class="algo-bullet-icon">✓</div>
+            <div class="algo-bullet-text">
+              <strong>Aggregated Net Balances:</strong> Contri looks at each member's total spending rather than forcing 20 individual person-to-person repayments.
+            </div>
+          </div>
+          <div class="algo-bullet">
+            <div class="algo-bullet-icon">✓</div>
+            <div class="algo-bullet-text">
+              <strong>Zero Circular Confusion:</strong> Never send $20 to your roommate while he owes you $25 for groceries. Contri computes the net difference automatically.
+            </div>
+          </div>
+          <div class="algo-bullet">
+            <div class="algo-bullet-icon">✓</div>
+            <div class="algo-bullet-text">
+              <strong>100% Transparent Proof:</strong> Members can expand any suggested payment to see the exact expenses, dates, and mathematical reasoning behind it.
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Debt Visualizer -->
+        <div class="settlement-visualizer">
+          <div class="visualizer-header">
+            <span class="visualizer-title">Live Settlement Engine Demo</span>
+            <div style="display:flex; gap:6px;">
+              <button id="vizToggleRaw" class="mode-btn" style="background:var(--bg-surface); color:var(--text-secondary); border:1px solid var(--border-subtle);">Traditional Chaos</button>
+              <button id="vizToggleContri" class="mode-btn active">Contri Engine</button>
+            </div>
+          </div>
+
+          <div id="vizSavingsBadge" class="visualizer-pill" style="align-self:flex-start;">
+            ✨ 1 Simple Direct Settlement (83% Fewer Transfers)
+          </div>
+
+          <div id="vizOutput" class="flow-steps" style="min-height:120px;">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6 Core Superpowers (Features Grid)
+       ========================================================================== -->
+  <section class="features-grid-section" id="features">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Packed with Features</span>
+        <h2 class="section-title">Designed for Real-World Group Living</h2>
+        <p class="section-sub">
+          Everything you need to manage group finances with 100% transparency, zero awkwardness, and zero stress.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">✨</div>
+          <h3>Smart Debt Simplification</h3>
+          <p>Automatically combines group balances into single direct transfers, saving extra fees and eliminating circular payments between friends.</p>
+          <span class="feature-tag-pill">AI Engine</span>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">💳</div>
+          <h3>Multi-Payer Expense Splits</h3>
+          <p>Did two people pay for a single massive Airbnb or team dinner? Contri supports multiple payers and unequal shares without mathematical gymnastics.</p>
+          <span class="feature-tag-pill">Flexible Splits</span>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">📷</div>
+          <h3>Receipt Scanner & OCR</h3>
+          <p>Snap a photo of any restaurant receipt or paper invoice. Contri’s smart scanner parses line items so you can split items with one tap.</p>
+          <span class="feature-tag-pill">Beta Powered</span>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">👥</div>
+          <h3>Dedicated Groups for Every Occasion</h3>
+          <p>Organize by Trips, Flatmates, Events, or Office. Each group has its own activity feed, member balances, and custom split settings.</p>
+          <span class="feature-tag-pill">Unlimited Groups</span>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">⚡</div>
+          <h3>1-Tap Settlement Recording</h3>
+          <p>Record settlements with a single tap once payments are made. Track balances, settle debts, and maintain full transparency with approved audit proofs.</p>
+          <span class="feature-tag-pill">Zero Confusion</span>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">🛡️</div>
+          <h3>Transparent Audit History</h3>
+          <p>Every transaction, split edit, and approved settlement is logged in a secure activity timeline. Never dispute who added what.</p>
+          <span class="feature-tag-pill">Complete Privacy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Authentic App Screenshots Gallery
+       ========================================================================== -->
+  <section class="screenshot-gallery-section" id="screenshots">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Pure Craftsmanship</span>
+        <h2 class="section-title">See Contri in Action</h2>
+        <p class="section-sub">
+          A modern, clutter-free mobile interface designed for speed, clarity, and instant comprehension.
+        </p>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="gallery-tabs-wrap">
+        <button class="gallery-tab-btn active" data-filter="all">All Screens</button>
+        <button class="gallery-tab-btn" data-filter="dashboard">Dashboard</button>
+        <button class="gallery-tab-btn" data-filter="expenses">Group Expenses</button>
+        <button class="gallery-tab-btn" data-filter="settlement">Settlements & History</button>
+      </div>
+
+      <!-- Screenshot Grid -->
+      <div class="gallery-carousel">
+        
+        <!-- Screen 1: Dashboard -->
+        <div class="gallery-card" data-category="dashboard">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/screenshots/dashboard.jpg" alt="Contri Home Dashboard" loading="lazy">
+          </div>
+          <div class="gallery-card-info">
+            <div class="gallery-card-title">Net Balance Dashboard</div>
+            <div class="gallery-card-desc">Shows net receivable across groups ($1,727.84) and active groups.</div>
+          </div>
+        </div>
+
+        <!-- Screen 2: Group Expenses -->
+        <div class="gallery-card" data-category="expenses">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/screenshots/expenses.jpg" alt="Travel Group Expenses" loading="lazy">
+          </div>
+          <div class="gallery-card-info">
+            <div class="gallery-card-title">Group Expense Manager</div>
+            <div class="gallery-card-desc">Fuel, dinner, and bill items itemized with date and member shares.</div>
+          </div>
+        </div>
+
+        <!-- Screen 3: Settlement Modal -->
+        <div class="gallery-card" data-category="settlement">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/screenshots/settlement_modal.jpg" alt="Settlement Calculation Sheet" loading="lazy">
+          </div>
+          <div class="gallery-card-info">
+            <div class="gallery-card-title">Simplified Calculation Sheet</div>
+            <div class="gallery-card-desc">Contri explains step-by-step why Arnold pays Rob $66.66.</div>
+          </div>
+        </div>
+
+        <!-- Screen 4: Settlement History -->
+        <div class="gallery-card" data-category="settlement">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/screenshots/settle_history.jpg" alt="Approved Settlement History" loading="lazy">
+          </div>
+          <div class="gallery-card-info">
+            <div class="gallery-card-title">Approved Settlement Log</div>
+            <div class="gallery-card-desc">Approved records for Rahul S and 2nd Sir with timestamps.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Comparison Matrix (Contri vs Old Apps)
+       ========================================================================== -->
+  <section class="comparison-section" id="comparison">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Comparison</span>
+        <h2 class="section-title">How Contri Outshines The Competition</h2>
+        <p class="section-sub">
+          Unlike older apps that lock core features behind expensive monthly subscriptions or bombard you with ads, Contri is built for users first.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th class="brand-col">Contri App</th>
+              <th>Splitwise (Free)</th>
+              <th>Basic Spreadsheets</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Daily Expense Limit</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> Unlimited Free</td>
+              <td><span class="cross-icon">✗</span> Capped at 4/day</td>
+              <td><span class="check-icon">✓</span> Unlimited</td>
+            </tr>
+            <tr>
+              <td><strong>Debt Simplification Algorithm</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> Included Free</td>
+              <td><span class="cross-icon">✗</span> Locked behind Pro ($5/mo)</td>
+              <td><span class="cross-icon">✗</span> Manual Math</td>
+            </tr>
+            <tr>
+              <td><strong>Multi-Payer per Single Bill</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> Yes, Unlimited</td>
+              <td><span class="cross-icon">✗</span> Complex Workaround</td>
+              <td><span class="cross-icon">✗</span> Messy Formulas</td>
+            </tr>
+            <tr>
+              <td><strong>Receipt Scanning (OCR)</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> Built-In Beta</td>
+              <td><span class="cross-icon">✗</span> Pro Only</td>
+              <td><span class="cross-icon">✗</span> None</td>
+            </tr>
+            <tr>
+              <td><strong>Ad-Free Experience</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> 100% Zero Ads</td>
+              <td><span class="cross-icon">✗</span> Cluttered Ads</td>
+              <td><span class="check-icon">✓</span> Ad-Free</td>
+            </tr>
+            <tr>
+              <td><strong>Instant Group QR & Link Invites</strong></td>
+              <td class="brand-col"><span class="check-icon">✓</span> 1-Tap QR & Share Link</td>
+              <td><span class="cross-icon">✗</span> Contact Sync Only</td>
+              <td><span class="cross-icon">✗</span> None</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       How It Works (4 Simple Steps)
+       ========================================================================== -->
+  <section class="how-it-works-section" id="how-it-works">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Quick Start</span>
+        <h2 class="section-title">Get Started in Under 30 Seconds</h2>
+        <p class="section-sub">
+          No mandatory long sign-ups. Create your group and start splitting instantly.
+        </p>
+      </div>
+
+      <div class="steps-timeline">
+        <div class="step-card">
+          <div class="step-number-badge">1</div>
+          <h3>Create a Group</h3>
+          <p>Give your group a name (e.g., 'Goa Road Trip' or 'Flat 402') and invite friends via QR code or link.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-badge">2</div>
+          <h3>Add Expenses</h3>
+          <p>Type the amount, snap the bill, or select multiple payers. Choose equal, exact, or percentage splits.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-badge">3</div>
+          <h3>Contri Simplifies</h3>
+          <p>Our algorithm instantly reconciles all balances to identify the lowest number of transfer transactions.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-badge">4</div>
+          <h3>Settle & Done</h3>
+          <p>Record settlements with 1 tap once payments are made. Balances update in real time with transparent history.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ Accordion
+       ========================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Got Questions? We’ve Got Answers.</h2>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Is Contri completely free to use?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Contri is 100% free with unlimited expense entries, unlimited group members, and full debt simplification. There are no paywalls or hidden fees.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does Contri's Debt Simplification Algorithm work?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>When multiple people spend money in a group, circular debts naturally form. Contri aggregates everyone's net spend and calculates the minimal graph of transactions. For example, if Rob is owed $400 and Arnold owes $66, Contri pairs them directly, eliminating unnecessary intermediate transfers.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can multiple people pay for a single expense together?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Contri has native multi-payer support. If two roommates split a $1,000 rent payment ($600 and $400), Contri records both contributions and balances the shares effortlessly.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Does Contri require access to my personal bank account?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>No. Contri never asks for banking credentials, passwords, or sensitive financial permissions. You settle debts however you prefer (cash, any payment app, or bank transfer) and record the settlement inside Contri to keep all balances accurate and reconciled.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can friends join without installing the app?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Group admins can add friends as Guest members immediately so expenses can be tracked. When they download Contri, they can claim their profile with one tap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Download CTA Section
+       ========================================================================== -->
+  <section class="download-cta-section" id="download">
+    <div class="container">
+      <div class="cta-banner-box">
+        <div class="cta-banner-glow"></div>
+        
+        <div class="cta-banner-content">
+          <h2>Ready to Stop Chasing Friends for Money?</h2>
+          <p>
+            Download Contri today and experience effortless, stress-free expense splitting. 
+            Available on Google Play Store.
+          </p>
+
+          <div class="cta-actions">
+            <!-- Google Play Store Button -->
+            <a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer" class="btn-play-store" title="Download Contri on Google Play Store">
+              <svg class="play-store-icon" viewBox="0 0 512 512">
+                <path fill="#4285F4" d="M47.8 17.1L274.6 244 56.4 462.2C50.9 456.7 47.8 449.1 47.8 440.9V71.1c0-8.2 3.1-15.8 8.6-21.3l-8.6-32.7z"/>
+                <path fill="#FBBC04" d="M363.9 154.7L274.6 244l89.3 89.3 84.1-48.5c16.3-9.4 16.3-24.9 0-34.3l-84.1-95.8z"/>
+                <path fill="#EA4335" d="M47.8 17.1l226.8 226.9L363.9 154.7 93.6 4.9C79.8-3.1 63.8.4 56.4 9.8l-8.6 7.3z"/>
+                <path fill="#34A853" d="M47.8 494.9l8.6 7.3c7.4 9.4 23.4 12.9 37.2 4.9l270.3-152.4-89.3-89.3L47.8 494.9z"/>
+              </svg>
+              <div class="play-store-text">
+                <span class="play-store-sub">DOWNLOAD FROM</span>
+                <span class="play-store-main">Google Play Store</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- QR Code for Instant Phone Scan -->
+        <a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer" class="cta-qr-box" title="Scan or click to open Google Play Store">
+          <div class="mock-qr-code">
+            <!-- Clean SVG QR code representation -->
+            <svg width="78" height="78" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm10-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm14 0h4v2h-4v-2zm-4 0h2v4h-2v-4zm4 4h4v2h-4v-2zm-2-2h2v2h-2v-2zm-2 2h2v2h-2v-2zM6 6h2v2H6V6zm12 0h2v2h-2V6zM6 18h2v2H6v-2z"/>
+            </svg>
+          </div>
+          <div class="cta-qr-info">
+            <span class="cta-qr-title">Scan to Install</span>
+            <span class="cta-qr-sub">Point mobile camera to download immediately on Android</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="#" class="brand-link">
+            <img src="assets/logo/logo.png" alt="Contri Logo" class="brand-logo-img">
+            <span>Contri</span>
+          </a>
+          <p class="footer-desc">
+            The next-generation group expense manager. Split bills fairly, eliminate debt headaches, and keep friendship first.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#app-tour">Live App Tour</a></li>
+            <li><a href="#algorithm">Debt Algorithm</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#comparison">Why Contri</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer">Google Play Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal & Safety</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Security & Data</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Contri Inc. All rights reserved.</p>
+        <p>Crafted with precision for smart spenders everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript Engine -->
+  <script src="js/app.js"></script>
+</body>
+</html>
