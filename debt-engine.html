@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Smart Debt Simplification Algorithm - Contri | Settle in 83% Fewer Transfers</title>
+  <meta name="description" content="Discover how Contri's proprietary Debt Simplification Algorithm eliminates circular debts, reduces 12 messy payments into 3, and saves money. 100% free.">
+  <meta name="keywords" content="debt simplification algorithm, simplify debts, minimum cash flow problem, group expense minimization, split debts with friends, settle circular debts">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#4f46e5">
+
+  <link rel="canonical" href="https://contri-jeetlabs.github.io/Contri/debt-engine.html">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo/logo_with_bg.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How Contri's Debt Simplification Algorithm Works">
+  <meta property="og:description" content="Understand the mathematics behind minimal group debt transfers. Settle trips and shared bills with zero headache.">
+  <meta property="og:url" content="https://contri-jeetlabs.github.io/Contri/debt-engine.html">
+  <meta property="og:image" content="https://contri-jeetlabs.github.io/Contri/assets/logo/logo_with_bg.png">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "How Contri Simplifies Circular Group Debts in 83% Fewer Transfers",
+    "url": "https://contri-jeetlabs.github.io/Contri/debt-engine.html",
+    "description": "An explanation of Contri's greedy net balance algorithm solving the Minimum Cash Flow Problem for group expenses.",
+    "author": {
+      "@type": "Organization",
+      "name": "Contri JeetLabs"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand-link" aria-label="Contri Home">
+        <img src="assets/logo/logo.png" alt="Contri Logo" class="brand-logo-img">
+        <span>Contri</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html#features">Features</a></li>
+          <li class="nav-item"><a href="splitwise-vs-contri.html">Splitwise vs Contri</a></li>
+          <li class="nav-item"><a href="debt-engine.html" style="color: var(--color-primary); font-weight: 700;">Debt Engine</a></li>
+          <li class="nav-item"><a href="support.html">Support</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Switch Theme">
+          <span id="themeIcon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer" class="btn-nav-download" title="Download Contri on Google Play">
+          <span>Get App</span>
+        </a>
+
+        <button id="menuToggle" class="menu-toggle-btn" aria-label="Open mobile navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div id="mobileNav" class="mobile-nav">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="splitwise-vs-contri.html" class="mobile-nav-link">Splitwise vs Contri</a>
+      <a href="debt-engine.html" class="mobile-nav-link">Debt Engine</a>
+      <a href="support.html" class="mobile-nav-link">Support & FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer" class="btn-play-store" style="justify-content: center; margin-top: 10px;">
+        <span class="play-store-text">
+          <span class="play-store-sub">GET IT ON</span>
+          <span class="play-store-main">Google Play</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="inner-hero-section">
+    <div class="container inner-hero-wrap">
+      <div class="breadcrumb-nav">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Algorithm</span>
+      </div>
+      <h1 class="inner-hero-title">Inside Contri's Smart Debt Engine</h1>
+      <p class="inner-hero-sub">
+        How computer science and graph theory eliminate circular payments so your group settles in up to 83% fewer transfers.
+      </p>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="inner-content-section">
+    <div class="container inner-content-wrap">
+
+      <div class="callout-box">
+        <p><strong>The Problem We Solve:</strong> In a group of 5 friends on a road trip, 15 different expenses can easily generate 10 to 12 overlapping, circular debts. Contri computes the minimum cash flow graph so everyone is squared away in just 2 or 3 direct payments.</p>
+      </div>
+
+      <div class="prose-card">
+        <h2>What is Circular Debt?</h2>
+        <p>
+          Imagine three flatmates: <strong>Aman</strong>, <strong>Rohan</strong>, and <strong>Vikram</strong>:
+        </p>
+        <ul>
+          <li>Aman pays ₹600 for groceries (Rohan owes Aman ₹200, Vikram owes Aman ₹200).</li>
+          <li>Rohan pays ₹900 for Wi-Fi and electricity (Aman owes Rohan ₹300, Vikram owes Rohan ₹300).</li>
+          <li>Vikram pays ₹300 for cleaning supplies (Aman owes Vikram ₹100, Rohan owes Vikram ₹100).</li>
+        </ul>
+        <p>
+          Without simplification, this requires <strong>6 separate bank transfers</strong> back and forth. Aman sends money to Rohan, Rohan sends money to Vikram, and Vikram sends money to Aman. It’s dizzying, fees add up, and people forget.
+        </p>
+      </div>
+
+      <div class="prose-card">
+        <h2>How Contri's Algorithm Calculates the Shortest Path</h2>
+        <p>
+          Contri ignores the messy web of individual micro-debts and looks only at the <strong>Net Balance</strong> of each individual:
+        </p>
+        <p>
+          <code>Net Balance = (Total Money Paid) - (Total Fair Share Consumed)</code>
+        </p>
+        <p>Using our previous example:</p>
+        <ul>
+          <li><strong>Aman:</strong> Paid ₹600, consumed ₹600. <strong>Net = ₹0</strong> (Fully settled!).</li>
+          <li><strong>Rohan:</strong> Paid ₹900, consumed ₹600. <strong>Net = +₹300</strong> (Owed money).</li>
+          <li><strong>Vikram:</strong> Paid ₹300, consumed ₹600. <strong>Net = -₹300</strong> (Owes money).</li>
+        </ul>
+        <p>
+          Instead of 6 transactions, Contri's algorithm produces a single, elegant instruction:
+        </p>
+        <div class="callout-box" style="border-left-color: var(--color-accent-green);">
+          <p><strong>Single Transfer Solution:</strong> Vikram pays Rohan ₹300. Done. Aman does nothing. 6 payments become 1.</p>
+        </div>
+      </div>
+
+      <div class="prose-card">
+        <h2>The Mathematics: Solving the Minimum Cash Flow Problem</h2>
+        <p>
+          Mathematically, this is modeled as a directed debt graph. Finding the absolute minimal number of edges in a debt network is related to the Subset Sum problem (which is NP-complete).
+        </p>
+        <p>
+          Contri runs an optimized <strong>Greedy Flow Network Matching Algorithm</strong> in real-time on your mobile device:
+        </p>
+        <ol>
+          <li>It partitions group members into <strong>Creditors</strong> (positive net balance) and <strong>Debtors</strong> (negative net balance).</li>
+          <li>It sorts both lists by absolute balance magnitude.</li>
+          <li>It greedily matches the maximum debtor with the maximum creditor, transferring the minimum of the two amounts.</li>
+          <li>The matched party is reduced to zero balance and removed from the active set.</li>
+          <li>The loop terminates when all balances reach zero.</li>
+        </ol>
+        <p>
+          This reduces typical group settlement overhead from <code>O(N²)</code> chaotic payment notifications down to at most <code>N - 1</code> clean transfers.
+        </p>
+      </div>
+
+      <div class="prose-card">
+        <h2>Why Other Apps Lock This Behind $4.99/mo Paywalls</h2>
+        <p>
+          Many older apps (like Splitwise) treat debt simplification as an expensive "Pro" luxury. When you don't pay their monthly fee, they intentionally leave debts complicated and unsimplified to incentivize upgrades.
+        </p>
+        <p>
+          <strong>At Contri, we believe math should be free.</strong> Group friendships shouldn't suffer from avoidable financial confusion. Contri provides full, unrestricted debt simplification on every group, completely free, with zero ads.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-link">
+            <img src="assets/logo/logo.png" alt="Contri Logo" class="brand-logo-img">
+            <span>Contri</span>
+          </a>
+          <p class="footer-desc">
+            The next-generation group expense manager. Split bills fairly, eliminate debt headaches, and keep friendship first.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="debt-engine.html">Debt Engine</a></li>
+            <li><a href="splitwise-vs-contri.html">Splitwise vs Contri</a></li>
+            <li><a href="index.html#screenshots">Screenshots</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="index.html#comparison">Why Contri</a></li>
+            <li><a href="support.html">Help & Support</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.fndb.contriapp" target="_blank" rel="noopener noreferrer">Google Play Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal & Safety</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="support.html#security">Security & Data</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Contri Inc. All rights reserved.</p>
+        <p>Crafted with precision for smart spenders everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
