@@ -2787,11 +2787,20 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.cta-qr-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .cta-qr-info {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .cta-qr-title {
@@ -3012,6 +3021,14 @@ button {
     padding: 36px 20px;
   }
 
+  .cta-qr-box {
+    padding: 16px;
+    gap: 14px;
+    max-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .footer-top {
     grid-template-columns: 1fr;
   }
@@ -3086,5 +3103,24 @@ button {
     font-size: 0.55rem;
     height: 28px;
     padding: 0 1px;
+  }
+
+  .cta-qr-box {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .mock-qr-code {
+    width: 74px;
+    height: 74px;
+    padding: 4px;
+  }
+
+  .cta-qr-title {
+    font-size: 0.9rem;
+  }
+
+  .cta-qr-sub {
+    font-size: 0.72rem;
   }
 }
