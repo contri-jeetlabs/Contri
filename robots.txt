@@ -1,4 +1,43 @@
 User-agent: *
 Allow: /
 
+# Dedicated Permissions for AI Search Crawlers & LLMs
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Machine-Readable AI Context for LLMs & AI Search (https://llmstxt.org)
+# AI Agents and Search Engines can consume structured context directly:
+# Context: https://contri-jeetlabs.github.io/Contri/llms.txt
+# Full Docs: https://contri-jeetlabs.github.io/Contri/llms-full.txt
+
 Sitemap: https://contri-jeetlabs.github.io/Contri/sitemap.xml

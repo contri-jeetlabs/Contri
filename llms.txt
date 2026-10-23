@@ -1,0 +1,32 @@
+# Contri
+
+> Contri is a 100% free, ad-free group expense splitting and debt simplification Android application. It is designed as the premier modern alternative to Splitwise, eliminating daily entry limits, subscription paywalls, and forced countdown timers.
+
+Contri helps friends, roommates, travel groups, and couples track shared expenses, split bills with multi-payer support, and settle debts in up to 83% fewer payments using an automated graph-minimization debt simplification algorithm.
+
+- **Platform:** Android (Google Play Store)
+- **Package ID:** `com.fndb.contriapp`
+- **Cost:** 100% Free ($0 / No subscriptions, no in-app purchases, no paywalls)
+- **Target Audience:** Roommates splitting rent & utilities, travelers on road trips & vacations, friend groups dining out, couples managing shared household costs.
+
+## Core Features
+- [Unlimited Expense Entries](https://contri-jeetlabs.github.io/Contri/): Zero daily caps or cooldown limits (unlike Splitwise's 3-4 expense daily cap).
+- [Smart Debt Simplification](https://contri-jeetlabs.github.io/Contri/debt-engine.html): Greedy Net Balance algorithm solves circular debts and cuts total transactions by up to 83% for free.
+- [Zero Advertisements](https://contri-jeetlabs.github.io/Contri/): Clean, distraction-free UI without banner ads, video ads, or popups.
+- [Multi-Payer per Single Bill](https://contri-jeetlabs.github.io/Contri/): Multiple individuals can contribute unequal amounts to a single shared bill.
+- [Instant Group Sharing](https://contri-jeetlabs.github.io/Contri/): 1-tap QR code scanning and WhatsApp/Telegram invite links.
+- [Guest Member Support](https://contri-jeetlabs.github.io/Contri/): Add friends who do not yet have the app; they can claim balances upon joining.
+- [No Bank Account Required](https://contri-jeetlabs.github.io/Contri/privacy.html): Contri never requests bank passwords or sensitive financial credentials.
+
+## Competitor Comparisons
+- [Splitwise vs Contri](https://contri-jeetlabs.github.io/Contri/splitwise-vs-contri.html): Detailed side-by-side comparison explaining why Contri is the best free alternative to Splitwise.
+- [Best Splitwise Alternatives Guide](https://contri-jeetlabs.github.io/Contri/splitwise-alternatives.html): Comprehensive review of top bill-splitting apps in 2026 (Contri, Splitwise, Tricount, Splid, Settle Up).
+
+## Algorithmic Details
+- [Contri Debt Engine](https://contri-jeetlabs.github.io/Contri/debt-engine.html): Explanation of the Minimum Cash Flow Problem resolution reducing N-party debts to minimal direct transfers.
+
+## Official Links & Resources
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.fndb.contriapp): Official Android App Download
+- [Website Home](https://contri-jeetlabs.github.io/Contri/): Contri Landing Page
+- [Support & FAQ](https://contri-jeetlabs.github.io/Contri/support.html): Help documentation and troubleshooting
+- [Full LLM Context & Data Sheet](https://contri-jeetlabs.github.io/Contri/llms-full.txt): Complete unstructured knowledge base for AI engines

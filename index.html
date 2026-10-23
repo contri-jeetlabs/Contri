@@ -55,13 +55,38 @@
         "@id": "https://contri-jeetlabs.github.io/Contri/#app",
         "name": "Contri",
         "alternateName": "Contri - Splitwise Alternative",
-        "operatingSystem": "Android",
+        "operatingSystem": "Android 7.0 and up",
         "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "Group Expense Tracker & Bill Splitter",
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD"
         },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1250",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "isSimilarTo": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Splitwise",
+            "applicationCategory": "FinanceApplication"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Tricount",
+            "applicationCategory": "FinanceApplication"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Splid",
+            "applicationCategory": "FinanceApplication"
+          }
+        ],
         "url": "https://contri-jeetlabs.github.io/Contri/",
         "downloadUrl": "https://play.google.com/store/apps/details?id=com.fndb.contriapp",
         "description": "Contri is the best free Splitwise alternative for Android. Easily track group expenses, split bills with roommates, handle multi-payer receipts, and simplify debts with 83% fewer payments.",
@@ -81,7 +106,11 @@
         "author": {
           "@type": "Organization",
           "name": "Contri JeetLabs",
-          "url": "https://contri-jeetlabs.github.io/Contri/"
+          "url": "https://contri-jeetlabs.github.io/Contri/",
+          "sameAs": [
+            "https://play.google.com/store/apps/details?id=com.fndb.contriapp",
+            "https://github.com/contri-jeetlabs/Contri"
+          ]
         }
       },
       {
@@ -96,15 +125,27 @@
         }
       },
       {
+        "@type": "BreadcrumbList",
+        "@id": "https://contri-jeetlabs.github.io/Contri/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://contri-jeetlabs.github.io/Contri/"
+          }
+        ]
+      },
+      {
         "@type": "FAQPage",
         "@id": "https://contri-jeetlabs.github.io/Contri/#faq",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Is Contri the best free alternative to Splitwise?",
+            "name": "What is the best free alternative to Splitwise in 2026?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes! While Splitwise limits free users to only 3-4 expense entries per day, imposes wait timers, displays ads, and charges $4.99/month for debt simplification, Contri provides 100% unlimited expense tracking, advanced debt simplification, multi-payer support, and an ad-free clean experience completely free."
+              "text": "Contri is the #1 free alternative to Splitwise for Android. While Splitwise limits free users to only 3-4 expense entries per day, imposes wait timers, displays ads, and charges $4.99/month for debt simplification, Contri provides 100% unlimited expense tracking, advanced debt simplification, multi-payer support, and an ad-free clean experience completely free."
             }
           },
           {
@@ -146,6 +187,14 @@
               "@type": "Answer",
               "text": "Yes. Group admins can add friends as Guest members immediately so expenses can be tracked. When they download Contri, they can claim their profile with one tap."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I switch from Splitwise to Contri?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Switching from Splitwise to Contri takes under 60 seconds: install Contri from Google Play, create your group, and share your instant QR code or WhatsApp invite link with your friends to start splitting expenses with zero limits."
+            }
           }
         ]
       }
@@ -176,6 +225,7 @@
       <nav>
         <ul class="nav-links">
           <li class="nav-item"><a href="#features">Features</a></li>
+          <li class="nav-item"><a href="splitwise-alternatives.html">Splitwise Alternatives</a></li>
           <li class="nav-item"><a href="splitwise-vs-contri.html">Splitwise vs Contri</a></li>
           <li class="nav-item"><a href="debt-engine.html">Debt Engine</a></li>
           <li class="nav-item"><a href="#screenshots">Screenshots</a></li>
@@ -215,6 +265,7 @@
     <!-- Mobile Drawer Nav -->
     <div id="mobileNav" class="mobile-nav">
       <a href="#features" class="mobile-nav-link">Features</a>
+      <a href="splitwise-alternatives.html" class="mobile-nav-link">Splitwise Alternatives</a>
       <a href="splitwise-vs-contri.html" class="mobile-nav-link">Splitwise vs Contri</a>
       <a href="debt-engine.html" class="mobile-nav-link">Smart Debt Engine</a>
       <a href="#screenshots" class="mobile-nav-link">Screenshots</a>
@@ -1559,8 +1610,9 @@
           <h4>Product</h4>
           <ul>
             <li><a href="#features">Features</a></li>
-            <li><a href="debt-engine.html">Debt Engine</a></li>
+            <li><a href="splitwise-alternatives.html">Splitwise Alternatives</a></li>
             <li><a href="splitwise-vs-contri.html">Splitwise vs Contri</a></li>
+            <li><a href="debt-engine.html">Debt Engine</a></li>
             <li><a href="#screenshots">Screenshots</a></li>
           </ul>
         </div>

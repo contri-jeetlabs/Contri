@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://contri-jeetlabs.github.io/Contri/splitwise-alternatives.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://contri-jeetlabs.github.io/Contri/splitwise-vs-contri.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/debt-engine.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/support.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/contact.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/privacy.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://contri-jeetlabs.github.io/Contri/terms.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
